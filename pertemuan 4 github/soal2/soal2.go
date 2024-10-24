@@ -36,8 +36,8 @@ func main() {
 	selesai1, waktu1 := hitungSkor(waktuPeserta1)
 	selesai2, waktu2 := hitungSkor(waktuPeserta2)
 
-	fmt.Printf("Astuti menyelesaikan %d soal dengan total waktu %d menit\n", selesai1, waktu1)
-	fmt.Printf("Bertha menyelesaikan %d soal dengan total waktu %d menit\n", selesai2, waktu2)
+	fmt.Printf("Astuti %d %d \n", selesai1, waktu1)
+	fmt.Printf("Bertha %d %d \n", selesai2, waktu2)
 
 	if selesai1 > selesai2 || (selesai1 == selesai2 && waktu1 < waktu2) {
 		fmt.Printf("Pemenangnya adalah Astuti dengan %d soal dan waktu %d menit\n", selesai1, waktu1)
